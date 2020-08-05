@@ -49,7 +49,7 @@ var Start = {
         game.input.onDown.add(orbSelect);
         game.input.onUp.add(orbDeselect);
 
-        this.timeInSeconds = 5;
+        this.timeInSeconds = 90;
         this.timeText = this.game.add.text(300, 540, "",{font: '79px Fredoka One', fill:'#000000'});
         this.timer = this.game.time.events.loop(Phaser.Timer.SECOND, this.updateTimer, this);
     },
